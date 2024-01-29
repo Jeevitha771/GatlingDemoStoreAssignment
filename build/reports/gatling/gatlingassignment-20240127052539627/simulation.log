@@ -1,0 +1,4 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706333139627	 	3.9.5
+USER	Listing categories	START	1706333143978
+REQUEST		Create new game	1706333143824	1706333145316	KO	status.find.in([200, 209], 304), found 405
+USER	Listing categories	END	1706333145339

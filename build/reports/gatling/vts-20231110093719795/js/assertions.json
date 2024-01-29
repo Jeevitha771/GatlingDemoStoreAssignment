@@ -1,0 +1,10 @@
+{
+  "simulation": "VtsTrails.VTS",
+  "simulationId": "vts-20231110093719795",
+  "start": 1699609046041,
+  "description": "",
+  "scenarios": ["CDC Inv Adjustment"],
+  "assertions": [
+
+  ]
+}

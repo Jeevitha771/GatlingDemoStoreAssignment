@@ -1,0 +1,4 @@
+RUN	VtsTrails.VTS	vts	1699851597300	 	3.9.5
+ERROR	GET request: Failed to build request: No baseUrl defined but provided url is relative : ibm-poc-tech1.fyre.ibm.com:8888/api 	1699851601415
+USER	CDC Inv Adjustment	START	1699851601424
+USER	CDC Inv Adjustment	END	1699851601425

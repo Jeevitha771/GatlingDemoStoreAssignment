@@ -1,0 +1,4 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706330476930	 	3.9.5
+USER	Listing categories	START	1706330481733
+REQUEST		List of Catogories	1706330481579	1706330482822	KO	jsonPath($.name).find.is(string) preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+USER	Listing categories	END	1706330482903

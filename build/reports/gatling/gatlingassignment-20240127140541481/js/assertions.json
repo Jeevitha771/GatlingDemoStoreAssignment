@@ -1,0 +1,10 @@
+{
+  "simulation": "VtsTrails.GatlingAssignment",
+  "simulationId": "gatlingassignment-20240127140541481",
+  "start": 1706364345553,
+  "description": "",
+  "scenarios": ["Listing categories"],
+  "assertions": [
+
+  ]
+}

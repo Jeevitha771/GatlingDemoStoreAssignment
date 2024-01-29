@@ -1,0 +1,4 @@
+RUN	VtsTrails.VTS	vts	1699852262742	 	3.9.5
+USER	CDC Inv Adjustment	START	1699852267207
+REQUEST		GET request	1699852267199	1699852268378	KO	jsonPath($.data.CDC_Inv_Qty).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+USER	CDC Inv Adjustment	END	1699852268450

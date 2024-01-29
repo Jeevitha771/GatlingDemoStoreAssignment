@@ -1,0 +1,6 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699078795905	2	3.9.5
+USER	Get Data From VTS	START	1699078802339
+REQUEST		Get VTS Data	1699078801938	1699078803359	OK	 
+REQUEST		Get VTS Data Redirect 1	1699078803370	1699078803851	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'enterprise' is defined 	1699078805083
+USER	Get Data From VTS	END	1699078805086

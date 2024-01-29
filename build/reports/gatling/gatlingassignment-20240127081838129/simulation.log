@@ -1,0 +1,8 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706343518129	 	3.9.5
+USER	Listing categories	START	1706343523327
+REQUEST		Get all categories	1706343522514	1706343524599	OK	 
+ERROR	Get category by ID: Failed to build request: No attribute named 'RandomId' is defined 	1706343534843
+REQUEST		Get all categories	1706343539858	1706343540212	OK	 
+REQUEST		Autheniticate	1706343545232	1706343545644	OK	 
+REQUEST		Create new game	1706343550659	1706343550965	OK	 
+USER	Listing categories	END	1706343550975

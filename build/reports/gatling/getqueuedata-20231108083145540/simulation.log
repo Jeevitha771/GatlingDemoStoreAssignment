@@ -1,0 +1,24 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699432305540	 	3.9.5
+USER	Get Data From VTS	START	1699432311311
+REQUEST		Get VTS Data	1699432310930	1699432311923	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432311932	1699432312220	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432313162
+REQUEST		Get VTS Data	1699432314180	1699432314459	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432314460	1699432314785	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432314789
+REQUEST		Get VTS Data	1699432315792	1699432316120	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432316121	1699432316427	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432316431
+REQUEST		Get VTS Data	1699432317447	1699432317746	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432317747	1699432318064	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432318067
+REQUEST		Get VTS Data	1699432319074	1699432319396	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432319398	1699432319804	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432319807
+REQUEST		Get VTS Data	1699432320822	1699432321240	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432321241	1699432321530	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432321532
+REQUEST		Get VTS Data	1699432322535	1699432322886	OK	 
+REQUEST		Get VTS Data Redirect 1	1699432322888	1699432323167	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTSJX.xml not found 	1699432323170
+USER	Get Data From VTS	END	1699432324190

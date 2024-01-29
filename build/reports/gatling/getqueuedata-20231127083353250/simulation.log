@@ -1,0 +1,38 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1701074033250	 	3.9.5
+USER	Get Data From VTS	START	1701074038957
+REQUEST		Get VTS Data	1701074038952	1701074039692	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074039703	1701074039986	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074040381
+REQUEST		Post VTS Data	1701074040392	1701074040671	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074040672	1701074040951	OK	 
+REQUEST		Get VTS Data	1701074041960	1701074042240	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074042241	1701074042517	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074042797
+REQUEST		Post VTS Data	1701074042799	1701074043079	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074043080	1701074043359	OK	 
+REQUEST		Get VTS Data	1701074044362	1701074044638	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074044640	1701074044917	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074045197
+REQUEST		Post VTS Data	1701074045198	1701074045475	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074045476	1701074045756	OK	 
+REQUEST		Get VTS Data	1701074046772	1701074047123	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074047124	1701074047445	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074047798
+REQUEST		Post VTS Data	1701074047799	1701074048077	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074048078	1701074048358	OK	 
+REQUEST		Get VTS Data	1701074049364	1701074049639	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074049639	1701074049915	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074050197
+REQUEST		Post VTS Data	1701074050198	1701074050477	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074050478	1701074050760	OK	 
+REQUEST		Get VTS Data	1701074051766	1701074052044	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074052045	1701074052322	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074052613
+REQUEST		Post VTS Data	1701074052615	1701074052897	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074052898	1701074053191	OK	 
+REQUEST		Get VTS Data	1701074054199	1701074054481	OK	 
+REQUEST		Get VTS Data Redirect 1	1701074054482	1701074054761	OK	 
+ERROR	request testing: Failed to build request: w.j.c.JMSException: [JMSExceptions:045101]The destination name passed to the createTopic or createQueue "OMJMSSystemResource!SOM_IN_MHS_STATUS_UPDATES_QUEUE" is invalid. If the destination name does not contain a "/" character, then it must be the name of a distributed destination that is available in the cluster to which the client is attached. If it does contain a "/" character, then the string before the "/" must be the name of a JMS server or a ".". The string after the "/" is the name of a the desired destination. If the "./" version of the string is used then any destination with the given name on the local WebLogic Server instance will be returned. 	1701074055073
+REQUEST		Post VTS Data	1701074055075	1701074055440	OK	 
+REQUEST		Post VTS Data Redirect 1	1701074055440	1701074055788	OK	 
+USER	Get Data From VTS	END	1701074056798

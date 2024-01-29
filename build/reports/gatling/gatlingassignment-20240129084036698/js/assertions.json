@@ -1,0 +1,10 @@
+{
+  "simulation": "Scripts.GatlingAssignment",
+  "simulationId": "gatlingassignment-20240129084036698",
+  "start": 1706517640872,
+  "description": "",
+  "scenarios": ["Listing categories"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "VtsTrails.ClickAndPick",
+  "simulationId": "clickandpick-20231129075233323",
+  "start": 1701244358570,
+  "description": "",
+  "scenarios": ["Initial scenario", "Click and Pick"],
+  "assertions": [
+
+  ]
+}

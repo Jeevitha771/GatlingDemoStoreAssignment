@@ -1,0 +1,23 @@
+[{
+  "name": "Blue Glasses",
+  "description": "Blue Glasses",
+  "image": "purple-glasses.jpg",
+  "price": "19.99",
+  "categoryId": 9
+},
+  {
+    "name": "Green Glasses",
+    "description": "Green Glasses",
+    "image": "green-glasses.jpg",
+    "price": "29.99",
+    "categoryId": 9
+  },
+  {
+    "name": "Pink Glasses",
+    "description": "Pink Glasses",
+    "image": "pink-glasses.jpg",
+    "price": "39.99",
+    "categoryId": 9
+  }
+
+]

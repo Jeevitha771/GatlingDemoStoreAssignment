@@ -1,0 +1,24 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699433545613	 	3.9.5
+USER	Get Data From VTS	START	1699433552076
+REQUEST		Get VTS Data	1699433551737	1699433552709	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433552724	1699433553215	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433554238
+REQUEST		Get VTS Data	1699433555257	1699433555631	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433555633	1699433555913	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433555919
+REQUEST		Get VTS Data	1699433556923	1699433557286	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433557288	1699433557566	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433557570
+REQUEST		Get VTS Data	1699433558589	1699433558926	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433558927	1699433559233	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433559236
+REQUEST		Get VTS Data	1699433560254	1699433560567	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433560569	1699433560878	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433560882
+REQUEST		Get VTS Data	1699433561901	1699433562202	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433562203	1699433562531	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433562535
+REQUEST		Get VTS Data	1699433563548	1699433563825	OK	 
+REQUEST		Get VTS Data Redirect 1	1699433563827	1699433564146	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'ship_node' is defined 	1699433564150
+USER	Get Data From VTS	END	1699433565167

@@ -1,0 +1,24 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699853428061	 	3.9.5
+USER	Get Data From VTS	START	1699853433174
+REQUEST		Get VTS Data	1699853433170	1699853434048	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853435063
+REQUEST		Post VTS Data	1699853435066	1699853435644	OK	 
+REQUEST		Get VTS Data	1699853436652	1699853437217	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853437224
+REQUEST		Post VTS Data	1699853437224	1699853437517	OK	 
+REQUEST		Get VTS Data	1699853438532	1699853439117	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853439122
+REQUEST		Post VTS Data	1699853439123	1699853439405	OK	 
+REQUEST		Get VTS Data	1699853440419	1699853440980	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853440985
+REQUEST		Post VTS Data	1699853440986	1699853441266	OK	 
+REQUEST		Get VTS Data	1699853442272	1699853442818	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853442823
+REQUEST		Post VTS Data	1699853442824	1699853443104	OK	 
+REQUEST		Get VTS Data	1699853444119	1699853444672	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853444679
+REQUEST		Post VTS Data	1699853444680	1699853444958	OK	 
+REQUEST		Get VTS Data	1699853445964	1699853446511	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699853446518
+REQUEST		Post VTS Data	1699853446519	1699853446796	OK	 
+USER	Get Data From VTS	END	1699853447816

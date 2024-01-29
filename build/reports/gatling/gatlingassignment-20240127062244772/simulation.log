@@ -1,0 +1,6 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706336564772	 	3.9.5
+USER	Listing categories	START	1706336569191
+REQUEST		Get all categories	1706336569034	1706336570565	KO	jsonPath($[?(@.id==1)].name).find.is(For Him), but actually found nothing
+REQUEST		Autheniticate	1706336575657	1706336576000	OK	 
+REQUEST		Create new game	1706336576097	1706336576480	OK	 
+USER	Listing categories	END	1706336576486

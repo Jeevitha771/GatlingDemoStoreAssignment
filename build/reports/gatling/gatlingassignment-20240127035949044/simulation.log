@@ -1,0 +1,4 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706327989044	 	3.9.5
+USER	Listing categories	START	1706327993541
+REQUEST		List of Catogories	1706327993378	1706327994668	OK	 
+USER	Listing categories	END	1706327994700

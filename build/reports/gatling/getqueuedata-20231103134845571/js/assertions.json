@@ -1,0 +1,10 @@
+{
+  "simulation": "VtsTrails.GetQueueData",
+  "simulationId": "getqueuedata-20231103134845571",
+  "start": 1699019329476,
+  "description": "",
+  "scenarios": ["Initial Scenario"],
+  "assertions": [
+
+  ]
+}

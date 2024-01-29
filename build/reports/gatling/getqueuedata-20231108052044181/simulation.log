@@ -1,0 +1,18 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699420844181	 	3.9.5
+USER	Get Data From VTS	START	1699420849938
+REQUEST		Get VTS Data	1699420849820	1699420850558	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420850566	1699420851068	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420852151	1699420852555	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420852556	1699420852895	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420853907	1699420854428	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420854429	1699420854844	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420855849	1699420856205	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420856206	1699420856593	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420857611	1699420857975	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420857976	1699420858324	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420859340	1699420859654	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420859654	1699420860114	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+REQUEST		Get VTS Data	1699420861128	1699420861497	OK	 
+REQUEST		Get VTS Data Redirect 1	1699420861498	1699420861803	KO	jsonPath($.data.VTS_Trails.ORDER_NO).find.exists, found nothing
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'item_id' is defined 	1699420863736
+USER	Get Data From VTS	END	1699420863739

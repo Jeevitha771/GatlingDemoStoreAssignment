@@ -1,0 +1,5 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706335218143	 	3.9.5
+USER	Listing categories	START	1706335222444
+REQUEST		Autheniticate	1706335222256	1706335223598	KO	status.find.in([200, 209], 304), found 405
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1706335223753
+USER	Listing categories	END	1706335223758

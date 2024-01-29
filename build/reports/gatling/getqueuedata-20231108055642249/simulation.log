@@ -1,0 +1,18 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699423002249	 	3.9.5
+USER	Get Data From VTS	START	1699423008299
+REQUEST		Get VTS Data	1699423008255	1699423008903	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423008911	1699423009200	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423010282	1699423010590	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423010591	1699423010871	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423011880	1699423012289	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423012290	1699423012569	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423013579	1699423013857	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423013858	1699423014141	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423015147	1699423015572	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423015573	1699423015861	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423016869	1699423017187	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423017188	1699423017503	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+REQUEST		Get VTS Data	1699423018513	1699423018838	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423018839	1699423019265	KO	jsonPath($.data.VTS_Trails.[*].ENTERPRISE).findAll.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'item_id' is defined 	1699423021513
+USER	Get Data From VTS	END	1699423021516

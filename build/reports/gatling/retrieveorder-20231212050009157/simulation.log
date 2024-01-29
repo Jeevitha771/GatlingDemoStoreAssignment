@@ -1,0 +1,85 @@
+RUN	RetrieveOrder	retrieveorder	1702357209157	 	3.9.5
+USER	Initial Scenario	START	1702357213199
+REQUEST		Request_X:VTS_GetColumSize	1702357213192	1702357223202	KO	i.n.c.ConnectTimeoutException: connection timed out: /9.30.86.192:8888
+USER	Initial Scenario	END	1702357223216
+USER	Retrieve order scenario	START	1702357224290
+REQUEST		LoginAPI	1702357224125	1702357224784	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357224878
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357224899
+REQUEST		LoginAPI	1702357226908	1702357226931	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357226934
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357226940
+REQUEST		LoginAPI	1702357228951	1702357228971	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357228974
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357228979
+REQUEST		LoginAPI	1702357230994	1702357231012	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357231015
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357231020
+REQUEST		LoginAPI	1702357233038	1702357233060	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357233064
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357233069
+REQUEST		LoginAPI	1702357235085	1702357235103	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357235106
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357235109
+USER	Retrieve order scenario	START	1702357235118
+REQUEST		LoginAPI	1702357235117	1702357235193	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357235196
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357235203
+REQUEST		LoginAPI	1702357237117	1702357237133	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357237135
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357237139
+REQUEST		LoginAPI	1702357237212	1702357237233	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357237235
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357237241
+REQUEST		LoginAPI	1702357239142	1702357239161	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357239163
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357239166
+REQUEST		LoginAPI	1702357239254	1702357239279	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357239284
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357239292
+REQUEST		LoginAPI	1702357241172	1702357241190	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357241191
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357241194
+REQUEST		LoginAPI	1702357241298	1702357241341	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357241362
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357241367
+REQUEST		LoginAPI	1702357243209	1702357243223	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357243226
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357243230
+REQUEST		LoginAPI	1702357243381	1702357243401	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357243403
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357243407
+REQUEST		LoginAPI	1702357245236	1702357245251	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357245253
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357245257
+REQUEST		LoginAPI	1702357245424	1702357245442	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357245444
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357245448
+USER	Retrieve order scenario	START	1702357246115
+REQUEST		LoginAPI	1702357246114	1702357246152	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357246154
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357246157
+REQUEST		LoginAPI	1702357247262	1702357247279	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357247282
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357247285
+REQUEST		LoginAPI	1702357247449	1702357247466	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357247468
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357247471
+REQUEST		LoginAPI	1702357248168	1702357248191	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357248194
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357248197
+REQUEST		LoginAPI	1702357249291	1702357249307	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357249309
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357249312
+REQUEST		LoginAPI	1702357249476	1702357249494	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357249497
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357249501
+REQUEST		LoginAPI	1702357250212	1702357250227	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357250229
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357250232
+REQUEST		LoginAPI	1702357251314	1702357251330	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357251333
+ERROR	RetrieveOrderAPI: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357251337
+REQUEST		LoginAPI	1702357251502	1702357251514	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1702357251516
+ERROR	

@@ -1,0 +1,18 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699423133334	 	3.9.5
+USER	Get Data From VTS	START	1699423138671
+REQUEST		Get VTS Data	1699423138627	1699423139466	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423139478	1699423139870	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423140927	1699423141306	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423141307	1699423141713	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423142727	1699423143043	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423143044	1699423143322	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423144339	1699423144617	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423144619	1699423144897	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423145912	1699423146231	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423146232	1699423146528	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423147534	1699423147811	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423147812	1699423148174	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+REQUEST		Get VTS Data	1699423149189	1699423149491	OK	 
+REQUEST		Get VTS Data Redirect 1	1699423149491	1699423149847	KO	jsonPath($[*].ENTERPRISE).findAll.exists, found nothing
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'item_id' is defined 	1699423151863
+USER	Get Data From VTS	END	1699423151866

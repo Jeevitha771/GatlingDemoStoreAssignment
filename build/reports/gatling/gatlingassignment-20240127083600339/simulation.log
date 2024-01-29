@@ -1,0 +1,8 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706344560339	 	3.9.5
+USER	Listing categories	START	1706344564455
+REQUEST		Get all categories	1706344564291	1706344566347	OK	 
+REQUEST		Get category by ID	1706344576499	1706344576985	KO	jmesPath([]).find.exists, found nothing
+REQUEST		Get all categories	1706344582009	1706344582523	OK	 
+REQUEST		Autheniticate	1706344587545	1706344587824	OK	 
+REQUEST		Create new game	1706344592841	1706344593130	OK	 
+USER	Listing categories	END	1706344593135

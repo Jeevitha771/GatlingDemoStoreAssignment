@@ -1,0 +1,24 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699538542670	 	3.9.5
+USER	Get Data From VTS	START	1699538550213
+REQUEST		Get VTS Data	1699538550145	1699538554250	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538555399
+REQUEST		Post VTS Data	1699538555403	1699538559267	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538560278	1699538563977	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538563982
+REQUEST		Post VTS Data	1699538563983	1699538567972	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538568986	1699538572791	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538572795
+REQUEST		Post VTS Data	1699538572796	1699538576880	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538577889	1699538581907	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538581909
+REQUEST		Post VTS Data	1699538581909	1699538585583	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538586594	1699538590601	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538590602
+REQUEST		Post VTS Data	1699538590603	1699538594288	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538595295	1699538598909	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538598911
+REQUEST		Post VTS Data	1699538598911	1699538602491	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		Get VTS Data	1699538603499	1699538607088	KO	j.n.ConnectException: Connection refused: no further information
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538607091
+REQUEST		Post VTS Data	1699538607092	1699538610877	KO	j.n.ConnectException: Connection refused: no further information
+USER	Get Data From VTS	END	1699538611886

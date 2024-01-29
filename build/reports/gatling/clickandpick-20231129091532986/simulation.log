@@ -1,0 +1,7 @@
+RUN	VtsTrails.ClickAndPick	clickandpick	1701249332986	 	3.9.5
+USER	Initial scenario	START	1701249338242
+USER	Initial scenario	END	1701249338242
+ERROR	Request_X:VTS_RetrieveColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1701249339274
+ERROR	send message to released for picking queue: Failed to build request: j.l.RuntimeException: No attribute named 'shipAdvNo' is defined 	1701249340269
+USER	Click and Pick	START	1701249340274
+USER	Click and Pick	END	1701249340274

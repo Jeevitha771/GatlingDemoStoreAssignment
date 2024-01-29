@@ -1,0 +1,75 @@
+RUN	VtsTrails.OrderModification	ordermodification	1702629884003	 	3.9.5
+USER	Initial Scenario	START	1702629888291
+REQUEST		Request_X:VTS_GetColumSize	1702629888284	1702629888941	OK	 
+REQUEST		Request_X:VTS_GetColumSize Redirect 1	1702629888952	1702629889243	OK	 
+USER	Initial Scenario	END	1702629889299
+USER	Retrieve order scenario	START	1702629890999
+REQUEST		LoginAPI	1702629890240	1702629891111	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629891263	1702629892021	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629892022	1702629892524	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629892631
+USER	Retrieve order scenario	START	1702629901238
+REQUEST		LoginAPI	1702629901236	1702629901306	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629901311	1702629901880	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629901881	1702629902257	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629902266
+USER	Retrieve order scenario	START	1702629912215
+REQUEST		LoginAPI	1702629912214	1702629912275	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629912279	1702629912881	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629912882	1702629913219	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629913227
+USER	Retrieve order scenario	START	1702629924227
+REQUEST		LoginAPI	1702629924223	1702629924311	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629924314	1702629924969	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629924970	1702629925294	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629925304
+USER	Retrieve order scenario	START	1702629935220
+REQUEST		LoginAPI	1702629935219	1702629935269	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629935271	1702629936044	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629936045	1702629936345	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629936357
+USER	Retrieve order scenario	START	1702629947214
+REQUEST		LoginAPI	1702629947213	1702629947264	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629947265	1702629947921	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629947921	1702629948228	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629948238
+USER	Retrieve order scenario	START	1702629958219
+REQUEST		LoginAPI	1702629958217	1702629958268	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629958270	1702629958874	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629958874	1702629959182	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629959189
+USER	Retrieve order scenario	START	1702629970221
+REQUEST		LoginAPI	1702629970221	1702629970273	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629970275	1702629970966	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629970966	1702629971384	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629971389
+USER	Retrieve order scenario	START	1702629981219
+REQUEST		LoginAPI	1702629981218	1702629981253	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629981255	1702629981914	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629981914	1702629982224	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629982232
+USER	Retrieve order scenario	START	1702629992212
+REQUEST		LoginAPI	1702629992210	1702629992248	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702629992249	1702629992883	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702629992883	1702629993280	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702629993289
+USER	Retrieve order scenario	START	1702630004213
+REQUEST		LoginAPI	1702630004212	1702630004252	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702630004254	1702630004860	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702630004861	1702630005136	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702630005144
+USER	Retrieve order scenario	START	1702630015216
+REQUEST		LoginAPI	1702630015213	1702630015261	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702630015262	1702630015893	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702630015893	1702630016169	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702630016180
+USER	Retrieve order scenario	START	1702630027227
+REQUEST		LoginAPI	1702630027226	1702630027276	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702630027277	1702630027891	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702630027892	1702630028197	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702630028204
+USER	Retrieve order scenario	START	1702630038213
+REQUEST		LoginAPI	1702630038212	1702630038257	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702630038259	1702630038845	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702630038846	1702630039156	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702630039167

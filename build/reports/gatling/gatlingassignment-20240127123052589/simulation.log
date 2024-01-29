@@ -1,0 +1,11 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706358652589	 	3.9.5
+USER	Listing categories	START	1706358658561
+REQUEST		Get all categories	1706358657913	1706358660075	OK	 
+REQUEST		Get category by ID	1706358664496	1706358664930	OK	 
+REQUEST		Get all categories	1706358666939	1706358667322	OK	 
+ERROR	Get product by ID: Failed to build request: No attribute named 'prodId' is defined 	1706358669345
+REQUEST		Autheniticate	1706358671355	1706358671889	OK	 
+REQUEST		Create new game	1706358673915	1706358674435	OK	 
+REQUEST		Create new game	1706358675456	1706358675858	OK	 
+REQUEST		Create new game	1706358676868	1706358677363	OK	 
+USER	Listing categories	END	1706358678380

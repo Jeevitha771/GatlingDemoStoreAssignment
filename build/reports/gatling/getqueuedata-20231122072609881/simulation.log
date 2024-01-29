@@ -1,0 +1,31 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1700637969881	 	3.9.5
+USER	Get Data From VTS	START	1700637974990
+REQUEST		Get VTS Data	1700637974985	1700637975542	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637975554	1700637975832	OK	 
+REQUEST		request testing	1700637976720	1700637976720	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637976723
+REQUEST		Get VTS Data	1700637977735	1700637978013	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637978014	1700637978295	OK	 
+REQUEST		request testing	1700637978298	1700637978298	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637978299
+REQUEST		Get VTS Data	1700637979309	1700637979577	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637979578	1700637979849	OK	 
+REQUEST		request testing	1700637979851	1700637979851	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637979852
+REQUEST		Get VTS Data	1700637980856	1700637981124	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637981125	1700637981396	OK	 
+REQUEST		request testing	1700637981399	1700637981399	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637981400
+REQUEST		Get VTS Data	1700637982408	1700637982706	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637982707	1700637983016	OK	 
+REQUEST		request testing	1700637983019	1700637983019	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637983020
+REQUEST		Get VTS Data	1700637984031	1700637984305	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637984306	1700637984577	OK	 
+REQUEST		request testing	1700637984580	1700637984580	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637984580
+REQUEST		Get VTS Data	1700637985586	1700637985854	OK	 
+REQUEST		Get VTS Data Redirect 1	1700637985855	1700637986122	OK	 
+REQUEST		request testing	1700637986124	1700637986124	OK	 
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700637986125
+USER	Get Data From VTS	END	1700637987132

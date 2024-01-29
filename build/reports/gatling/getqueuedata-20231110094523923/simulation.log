@@ -1,0 +1,24 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699609523923	 	3.9.5
+USER	Get Data From VTS	START	1699609531497
+REQUEST		Get VTS Data	1699609531493	1699609532332	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609533460
+REQUEST		Post VTS Data	1699609533464	1699609533856	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609534873	1699609535221	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609535225
+REQUEST		Post VTS Data	1699609535226	1699609535572	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609536586	1699609537031	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609537039
+REQUEST		Post VTS Data	1699609537040	1699609537438	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609538452	1699609538798	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609538801
+REQUEST		Post VTS Data	1699609538802	1699609539150	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609540158	1699609540613	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609540619
+REQUEST		Post VTS Data	1699609540620	1699609541023	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609542027	1699609542456	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609542459
+REQUEST		Post VTS Data	1699609542459	1699609542865	KO	status.find.is(200), but actually found 404
+REQUEST		Get VTS Data	1699609543878	1699609544300	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699609544304
+REQUEST		Post VTS Data	1699609544305	1699609544709	KO	status.find.is(200), but actually found 404
+USER	Get Data From VTS	END	1699609545727

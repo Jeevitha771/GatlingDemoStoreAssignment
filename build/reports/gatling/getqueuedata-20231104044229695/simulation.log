@@ -1,0 +1,4 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699072949695	 	3.9.5
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1699072954132
+USER	Get Data From VTS	END	1699072954137
+USER	Get Data From VTS	START	1699072954137

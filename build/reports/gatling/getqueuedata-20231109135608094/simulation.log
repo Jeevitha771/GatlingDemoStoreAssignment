@@ -1,0 +1,6 @@
+RUN	VtsTrails.GetQueueData	getqueuedata	1699538168094	 	3.9.5
+USER	Get Data From VTS	START	1699538175664
+REQUEST		Get VTS Data	1699538175594	1699538176327	KO	status.find.is(200), but actually found 404
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1699538177433
+REQUEST		Post VTS Data	1699538177436	1699538177834	KO	status.find.is(200), but actually found 404
+USER	Get Data From VTS	END	1699538178853

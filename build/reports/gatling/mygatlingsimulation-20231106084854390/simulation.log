@@ -1,0 +1,4 @@
+RUN	VtsTrails.MyGatlingSimulation	mygatlingsimulation	1699260534390	 	3.9.5
+ERROR	Get VTS Data: Failed to build request: No attribute named 'requestBody' is defined 	1699260539038
+USER	VTS Data Scenario	END	1699260539047
+USER	VTS Data Scenario	START	1699260539048

@@ -1,0 +1,5 @@
+RUN	VtsTrails.GatlingAssignment	gatlingassignment	1706335774123	 	3.9.5
+USER	Listing categories	START	1706335778527
+REQUEST		Autheniticate	1706335778319	1706335780337	OK	 
+REQUEST		Create new game	1706335780446	1706335780763	OK	 
+USER	Listing categories	END	1706335780768

@@ -1,0 +1,8 @@
+RUN	VtsTrails.ClickAndPick	clickandpick	1701322346317	 	3.9.5
+USER	Initial scenario	START	1701322351693
+REQUEST		Request_X:VTS_RetrieveColumn	1701322351688	1701322352347	OK	 
+REQUEST		Request_X:VTS_RetrieveColumn Redirect 1	1701322352357	1701322352653	OK	 
+REQUEST		send message to released for picking queue	1701322354040	1701322354040	OK	 
+REQUEST		send msg to ready for dispatch queue	1701322354392	1701322354392	OK	 
+REQUEST		send msg to ready for dispatch queue	1701322354698	1701322354698	OK	 
+USER	Initial scenario	END	1701322354702

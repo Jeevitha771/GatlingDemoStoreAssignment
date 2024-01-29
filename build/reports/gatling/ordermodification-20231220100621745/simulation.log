@@ -1,0 +1,307 @@
+RUN	VtsTrails.OrderModification	ordermodification	1703066781745	 	3.9.5
+USER	Initial Scenario	START	1703066786603
+REQUEST		Request_X:VTS_GetColumSize	1703066786590	1703066796613	KO	i.n.c.ConnectTimeoutException: connection timed out: /9.30.86.192:8888
+USER	Initial Scenario	END	1703066796646
+USER	Retrieve order scenario	START	1703066798159
+REQUEST		LoginAPI	1703066797563	1703066799545	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066799797
+USER	Retrieve order scenario	END	1703066799859
+USER	Retrieve order scenario	START	1703066808540
+REQUEST		LoginAPI	1703066808539	1703066808610	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066808618
+USER	Retrieve order scenario	END	1703066808628
+USER	Retrieve order scenario	START	1703066819540
+REQUEST		LoginAPI	1703066819539	1703066819589	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066819601
+REQUEST		ModifyOrderSyncAPI	1703066819608	1703066819697	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066819704	1703066819705	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066819713	1703066819713	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703066819720
+USER	Retrieve order scenario	START	1703066831544
+REQUEST		LoginAPI	1703066831542	1703066831647	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066831651
+USER	Retrieve order scenario	END	1703066831659
+USER	Retrieve order scenario	START	1703066842550
+REQUEST		LoginAPI	1703066842547	1703066842643	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066842646
+REQUEST		ModifyOrderSyncAPI	1703066842649	1703066842687	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066842699	1703066842699	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066842708	1703066842709	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703066842720
+USER	Retrieve order scenario	START	1703066854545
+REQUEST		LoginAPI	1703066854544	1703066854597	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066854599
+USER	Retrieve order scenario	END	1703066854603
+USER	Retrieve order scenario	START	1703066865547
+REQUEST		LoginAPI	1703066865544	1703066865595	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066865598
+USER	Retrieve order scenario	END	1703066865602
+USER	Retrieve order scenario	START	1703066877547
+REQUEST		LoginAPI	1703066877546	1703066877639	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066877641
+USER	Retrieve order scenario	END	1703066877645
+USER	Retrieve order scenario	START	1703066888543
+REQUEST		LoginAPI	1703066888542	1703066888591	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066888593
+USER	Retrieve order scenario	END	1703066888596
+USER	Retrieve order scenario	START	1703066899546
+REQUEST		LoginAPI	1703066899544	1703066899584	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066899586
+REQUEST		ModifyOrderSyncAPI	1703066899588	1703066899598	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066899605	1703066899605	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066899613	1703066899613	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703066899619
+USER	Retrieve order scenario	START	1703066911535
+REQUEST		LoginAPI	1703066911534	1703066911599	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066911601
+USER	Retrieve order scenario	END	1703066911604
+USER	Retrieve order scenario	START	1703066922540
+REQUEST		LoginAPI	1703066922539	1703066922623	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066922625
+USER	Retrieve order scenario	END	1703066922630
+USER	Retrieve order scenario	START	1703066934543
+REQUEST		LoginAPI	1703066934541	1703066934608	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066934611
+USER	Retrieve order scenario	END	1703066934614
+USER	Retrieve order scenario	START	1703066945544
+REQUEST		LoginAPI	1703066945543	1703066945596	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066945598
+REQUEST		ModifyOrderSyncAPI	1703066945601	1703066945604	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066945612	1703066945612	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066945621	1703066945622	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703066945629
+USER	Retrieve order scenario	START	1703066957538
+REQUEST		LoginAPI	1703066957537	1703066957924	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066957929
+REQUEST		ModifyOrderSyncAPI	1703066957938	1703066957975	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066957987	1703066957987	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703066958002	1703066958002	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703066958016
+USER	Retrieve order scenario	START	1703066968539
+REQUEST		LoginAPI	1703066968538	1703066968579	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066968581
+USER	Retrieve order scenario	END	1703066968584
+USER	Retrieve order scenario	START	1703066979548
+REQUEST		LoginAPI	1703066979547	1703066979594	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066979596
+USER	Retrieve order scenario	END	1703066979599
+USER	Retrieve order scenario	START	1703066991534
+REQUEST		LoginAPI	1703066991533	1703066991579	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703066991581
+USER	Retrieve order scenario	END	1703066991586
+USER	Retrieve order scenario	START	1703067002535
+REQUEST		LoginAPI	1703067002534	1703067002587	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067002589
+USER	Retrieve order scenario	END	1703067002593
+USER	Retrieve order scenario	START	1703067014538
+REQUEST		LoginAPI	1703067014537	1703067014581	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067014584
+USER	Retrieve order scenario	END	1703067014587
+USER	Retrieve order scenario	START	1703067025540
+REQUEST		LoginAPI	1703067025540	1703067025577	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067025579
+USER	Retrieve order scenario	END	1703067025581
+USER	Retrieve order scenario	START	1703067037543
+REQUEST		LoginAPI	1703067037542	1703067037583	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067037585
+REQUEST		ModifyOrderSyncAPI	1703067037588	1703067037601	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067037609	1703067037609	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067037615	1703067037615	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067037620
+USER	Retrieve order scenario	START	1703067048567
+REQUEST		LoginAPI	1703067048566	1703067048631	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067048633
+USER	Retrieve order scenario	END	1703067048638
+USER	Retrieve order scenario	START	1703067059535
+REQUEST		LoginAPI	1703067059534	1703067059593	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067059596
+USER	Retrieve order scenario	END	1703067059599
+USER	Retrieve order scenario	START	1703067071534
+REQUEST		LoginAPI	1703067071533	1703067071575	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067071577
+USER	Retrieve order scenario	END	1703067071581
+USER	Retrieve order scenario	START	1703067082539
+REQUEST		LoginAPI	1703067082539	1703067082584	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067082587
+USER	Retrieve order scenario	END	1703067082590
+USER	Retrieve order scenario	START	1703067094542
+REQUEST		LoginAPI	1703067094542	1703067094580	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067094583
+USER	Retrieve order scenario	END	1703067094586
+USER	Retrieve order scenario	START	1703067105548
+REQUEST		LoginAPI	1703067105546	1703067105594	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067105598
+USER	Retrieve order scenario	END	1703067105600
+USER	Retrieve order scenario	START	1703067117540
+REQUEST		LoginAPI	1703067117540	1703067117588	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067117591
+REQUEST		ModifyOrderSyncAPI	1703067117597	1703067117632	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067117639	1703067117639	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067117647	1703067117647	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067117654
+USER	Retrieve order scenario	START	1703067128539
+REQUEST		LoginAPI	1703067128539	1703067128591	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067128594
+USER	Retrieve order scenario	END	1703067128596
+USER	Retrieve order scenario	START	1703067139543
+REQUEST		LoginAPI	1703067139540	1703067139601	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067139604
+USER	Retrieve order scenario	END	1703067139608
+USER	Retrieve order scenario	START	1703067151544
+REQUEST		LoginAPI	1703067151543	1703067151587	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067151590
+REQUEST		ModifyOrderSyncAPI	1703067151594	1703067151599	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067151604	1703067151604	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067151611	1703067151611	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067151617
+USER	Retrieve order scenario	START	1703067162544
+REQUEST		LoginAPI	1703067162543	1703067162583	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067162586
+USER	Retrieve order scenario	END	1703067162588
+USER	Retrieve order scenario	START	1703067174543
+REQUEST		LoginAPI	1703067174542	1703067174577	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067174579
+USER	Retrieve order scenario	END	1703067174582
+USER	Retrieve order scenario	START	1703067185547
+REQUEST		LoginAPI	1703067185547	1703067185587	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067185590
+REQUEST		ModifyOrderSyncAPI	1703067185593	1703067185600	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067185606	1703067185606	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067185615	1703067185615	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067185624
+USER	Retrieve order scenario	START	1703067197535
+REQUEST		LoginAPI	1703067197535	1703067197587	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067197589
+USER	Retrieve order scenario	END	1703067197594
+USER	Retrieve order scenario	START	1703067208543
+REQUEST		LoginAPI	1703067208542	1703067208578	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067208581
+USER	Retrieve order scenario	END	1703067208583
+USER	Retrieve order scenario	START	1703067219539
+REQUEST		LoginAPI	1703067219538	1703067219575	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067219577
+USER	Retrieve order scenario	END	1703067219580
+USER	Retrieve order scenario	START	1703067231548
+REQUEST		LoginAPI	1703067231547	1703067231595	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067231598
+USER	Retrieve order scenario	END	1703067231600
+USER	Retrieve order scenario	START	1703067242535
+REQUEST		LoginAPI	1703067242535	1703067242577	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067242580
+USER	Retrieve order scenario	END	1703067242584
+USER	Retrieve order scenario	START	1703067254533
+REQUEST		LoginAPI	1703067254533	1703067254575	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067254577
+USER	Retrieve order scenario	END	1703067254581
+USER	Retrieve order scenario	START	1703067265544
+REQUEST		LoginAPI	1703067265543	1703067265584	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067265586
+REQUEST		ModifyOrderSyncAPI	1703067265591	1703067265598	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067265606	1703067265606	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067265614	1703067265614	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067265621
+USER	Retrieve order scenario	START	1703067277544
+REQUEST		LoginAPI	1703067277542	1703067277585	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067277589
+REQUEST		ModifyOrderSyncAPI	1703067277596	1703067277604	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067277614	1703067277614	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067277623	1703067277623	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067277633
+USER	Retrieve order scenario	START	1703067288549
+REQUEST		LoginAPI	1703067288549	1703067288590	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067288592
+USER	Retrieve order scenario	END	1703067288595
+USER	Retrieve order scenario	START	1703067299547
+REQUEST		LoginAPI	1703067299547	1703067299588	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067299590
+USER	Retrieve order scenario	END	1703067299594
+USER	Retrieve order scenario	START	1703067311540
+REQUEST		LoginAPI	1703067311539	1703067311589	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067311592
+USER	Retrieve order scenario	END	1703067311597
+USER	Retrieve order scenario	START	1703067322538
+REQUEST		LoginAPI	1703067322537	1703067322588	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067322590
+USER	Retrieve order scenario	END	1703067322595
+USER	Retrieve order scenario	START	1703067334543
+REQUEST		LoginAPI	1703067334542	1703067334587	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067334589
+USER	Retrieve order scenario	END	1703067334591
+USER	Retrieve order scenario	START	1703067345549
+REQUEST		LoginAPI	1703067345548	1703067345586	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067345588
+USER	Retrieve order scenario	END	1703067345593
+USER	Retrieve order scenario	START	1703067357540
+REQUEST		LoginAPI	1703067357540	1703067357597	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067357603
+USER	Retrieve order scenario	END	1703067357609
+USER	Retrieve order scenario	START	1703067368551
+REQUEST		LoginAPI	1703067368550	1703067368614	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067368618
+USER	Retrieve order scenario	END	1703067368624
+USER	Retrieve order scenario	START	1703067379534
+REQUEST		LoginAPI	1703067379533	1703067379569	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067379572
+REQUEST		ModifyOrderSyncAPI	1703067379574	1703067379649	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067379655	1703067379655	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067379666	1703067379666	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067379672
+USER	Retrieve order scenario	START	1703067391536
+REQUEST		LoginAPI	1703067391536	1703067391593	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067391596
+USER	Retrieve order scenario	END	1703067391601
+USER	Retrieve order scenario	START	1703067402544
+REQUEST		LoginAPI	1703067402543	1703067402627	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067402632
+REQUEST		ModifyOrderSyncAPI	1703067402640	1703067402655	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067402668	1703067402668	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067402686	1703067402686	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067402698
+USER	Retrieve order scenario	START	1703067414539
+REQUEST		LoginAPI	1703067414538	1703067414576	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067414579
+USER	Retrieve order scenario	END	1703067414583
+USER	Retrieve order scenario	START	1703067425534
+REQUEST		LoginAPI	1703067425534	1703067425574	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067425576
+REQUEST		ModifyOrderSyncAPI	1703067425580	1703067425585	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067425591	1703067425591	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067425599	1703067425599	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067425604
+USER	Retrieve order scenario	START	1703067437538
+REQUEST		LoginAPI	1703067437538	1703067437573	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067437575
+REQUEST		ModifyOrderSyncAPI	1703067437579	1703067437593	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067437599	1703067437599	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067437606	1703067437606	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067437617
+USER	Retrieve order scenario	START	1703067448544
+REQUEST		LoginAPI	1703067448542	1703067448581	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067448584
+USER	Retrieve order scenario	END	1703067448588
+USER	Retrieve order scenario	START	1703067459543
+REQUEST		LoginAPI	1703067459543	1703067459579	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067459581
+USER	Retrieve order scenario	END	1703067459585
+USER	Retrieve order scenario	START	1703067471538
+REQUEST		LoginAPI	1703067471537	1703067471591	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067471594
+USER	Retrieve order scenario	END	1703067471598
+USER	Retrieve order scenario	START	1703067482536
+REQUEST		LoginAPI	1703067482536	1703067482570	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067482572
+REQUEST		ModifyOrderSyncAPI	1703067482574	1703067482598	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067482602	1703067482602	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067482607	1703067482607	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067482611
+USER	Retrieve order scenario	START	1703067494534
+REQUEST		LoginAPI	1703067494534	1703067494580	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067494583
+USER	Retrieve order scenario	END	1703067494587
+USER	Retrieve order scenario	START	1703067505546
+REQUEST		LoginAPI	1703067505545	1703067505599	OK	 
+ERROR	Request_X:VTS_QueryColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1703067505601
+REQUEST		ModifyOrderSyncAPI	1703067505605	1703067505622	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067505629	1703067505629	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1703067505634	1703067505634	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1703067505639
